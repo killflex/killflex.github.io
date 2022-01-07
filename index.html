@@ -19,7 +19,7 @@
     <header class="l-header">
         <nav class="nav bd-grid">
             <div>
-                <a href="#home" class="nav__logo">killflex</a>
+                <a href="index.html" class="nav__logo">killflex</a>
             </div>
 
             <div class="nav__menu" id="nav-menu">
@@ -58,7 +58,8 @@
                 <a href="https://www.instagram.com/killurflex" target="_blank" class="home__social-icon"><i class='bx bxl-instagram-alt'></i></a>
                 <a href="https://twitter.com/fleksipi" target="_blank" class="home__social-icon"><i class='bx bxl-twitter'></i></a>
                 <a href="https://www.facebook.com/flexsify" target="_blank" class="home__social-icon"><i class='bx bxl-facebook-square'></i></a>
-                <a href="https://www.youtube.com/c/killflex" target="_blank" class="home__social-icon"><i class='bx bxl-youtube'></i></a>
+                <a href="https://www.youtube.com/channel/UChwSCygEMrr2Ucip-yg2elg" target="_blank" class="home__social-icon"><i class='bx bxl-youtube'></i></a>
+                <a href="https://linktr.ee/7flexsfy" target="_blank" class="home__social-icon"><i class='bx bx-link-alt'></i></a>
             </div>
 
             <div class="home__img">    
@@ -78,13 +79,13 @@
                 
                 <div>
                     <h2 class="about__subtitle">Hi there!</h1>
-                    <p class="about__text">Welcome to my portfolio! My name is <b>Ferry Hasan</b>, known as killflex or fleksipi. I'm 18 years old based in Surabaya, East
-                    Java, <b>Indonesia</b>. I have more than 3 years experience as a <b>Motion Designer</b> &
+                    <p class="about__text">Welcome to my portfolio! My name is Ferry Hasan, known as killflex or fleksipi. I'm 18 years old based in Surabaya, East
+                    Java, Indonesia. I have more than 3 years experience as a <b>Motion Designer</b> &
                     almost 1 years as a <b>3D Designer</b>.
                     <br><br>
                     It started from my hobby that loves to play games, watch animation, and also everything involved in design. I have the
                     desire to make it by myself. In the end I started learning 2D and 3D design from various software such as <b>Adobe After
-                    Effects, Photoshop, Cinema 4D, Blender,</b> and so on.
+                    Effects</b>, <b>Photoshop</b>, <b>Cinema 4D</b>, <b>Blender</b>, and so on.
                     <br><br>
                     Doing 3D & Motion <b>isn't just hobby</b> for me, but it also my <b>biggest passion</b>.</p>  
                 </div>                                   
@@ -246,8 +247,8 @@
                     </a>
                 </div>
                 <div class="visuals__img">
-                    <a href="assets/img/visuals/work12.png" data-lightbox="technology" data-title="Spooky ✦ Blender ✦ Octane ✦ Adobe After Effects">
-                        <img src="assets/img/visuals/work12.png" alt="Spooky ✦ Blender ✦ Octane ✦ Adobe After Effects">
+                    <a href="assets/img/visuals/work12.jpg" data-lightbox="technology" data-title="Spooky ✦ Blender ✦ Octane ✦ Adobe After Effects">
+                        <img src="assets/img/visuals/work12.jpg" alt="Spooky ✦ Blender ✦ Octane ✦ Adobe After Effects">
                     </a>
                 </div>
             </div>
@@ -322,7 +323,12 @@
             <p class="contact__text">Have any questions or job inquiries? Don't hesitate to contact me at any time. </p>
 
             <div class="contact__container bd-grid">
-                <form action="" method="POST" class="contact__form">
+                <form action="https://formsubmit.co/killflexediting@gmail.com" method="POST" class="contact__form">
+
+                    <input type="hidden" name="_next" value="./success.html">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_captcha" value="false">
+
                     <input type="text" placeholder="Name" name="Name" class="contact__input" required>
                     <input type="email" placeholder="Email" name="Email" class="contact__input" required>
                     <textarea name="textarea" id="" cols="0" rows="10" name="Messages" class="contact__input txt-area" placeholder="Your message" required></textarea>
@@ -344,7 +350,8 @@
             <a href="https://www.instagram.com/killflex" target="_blank" class="footer__icon"><i class='bx bxl-instagram-alt'></i></a>
             <a href="https://twitter.com/fleksipi" target="_blank" class="footer__icon"><i class='bx bxl-twitter'></i></a>
             <a href="https://www.facebook.com/flexsify" target="_blank" class="footer__icon"><i class='bx bxl-facebook-square'></i></a>
-            <a href="https://www.youtube.com/c/killflex" target="_blank" class="footer__icon"><i class='bx bxl-youtube'></i></a>
+            <a href="https://www.youtube.com/channel/UChwSCygEMrr2Ucip-yg2elg" target="_blank" class="footer__icon"><i class='bx bxl-youtube'></i></a>
+            <a href="https://linktr.ee/7flexsfy" target="_blank" class="footer__icon"><i class='bx bx-link-alt'></i></a>
         </div>
 
         <p class="footer__email">killflexediting@gmail.com</p>
@@ -367,20 +374,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="assets/js/main.js"></script>
-    <script>
-		function anjayImg(){
-			const btn = document.querySelector('.menuju_pop');
-			const videoContainer = document.querySelector('.video_container');
-			const close = document.querySelector('.closes');
-
-			btn.addEventListener('click', ()=>{
-				videoContainer.classList.add('shows');
-			})
-
-			close.addEventListener('click', ()=>{
-				videoContainer.classList.remove('shows');
-			})
-		}
-	</script>
 </body>
 </html>
