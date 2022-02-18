@@ -317,11 +317,13 @@ img{
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
-  transition: .3s;
+  transition: .5s;
 }
 
 .button:hover{
-  transform: scale(1.007);
+  /*transform: scale(1.007);*/
+  color: var(--first-color);
+  background-color: #fff;
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 
