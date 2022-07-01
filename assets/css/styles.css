@@ -157,7 +157,7 @@ img{
     background-color: var(--second-color);
     transition: .5s;
   } */
-
+  
   .nav__menu{
     text-align: right;
     position: fixed;
@@ -166,12 +166,13 @@ img{
     width: 35%;
     height: 100%;
     padding: 2rem;
-    background-color: rgb(26, 26, 26);
+    /* background-color: rgb(26, 26, 26); */
+    /* background-color: var (--first-color); */
     /* border-radius: 0 0 0 2rem; */
     /* box-shadow: 0 1px 4px rgba(8, 8, 8, 0.15); */
     /* box-shadow: -10px 21px 38px 0px rgba(8, 8, 8, 0.15); */
     z-index: 100;
-    transition: .3s;
+    transition: .5s ease;
   }
 
   .nav__icon{
@@ -210,39 +211,42 @@ img{
 
 .nav__link{
   position: relative;
-  color: #fff;
+  color: var(--second-color);
+  transition: .3s ease;
 }
 
 
-/* .nav__link:hover{
-  position: relative;
-} */
+.nav__link:hover{
+  color: var(--first-color);
+  /* position: relative; */
+}
 
 .nav__link{
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .nav__link:after {
-  position: absolute;
+  /* position: absolute;
   content: "";
   width: 100%;
   height: 0rem;
   left: 0;
   top: 2.4rem;
   background-color: var(--first-color);
-  transition: .3s;
+  transition: .3s; */
 }
 
 /* sesudah */
 .nav__link:hover:after{
-  text-decoration: none;
-  position: absolute;
-  content: "";
+  color: var(--first-color);
+  /* text-decoration: none;
+  position: absolute; */
+  /* content: "";
   width: 100%;
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--first-color); */
 }
 
 .nav__logo{
@@ -567,8 +571,9 @@ img{
 }
 
 .footer__title{
-  font-weight: var(--font-semi);
-  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.822);
+  /* font-weight: var(--font-sem); */
+  font-size: 0.9rem;
   margin-bottom: var(--mb-3);
 }
 
@@ -619,27 +624,29 @@ img{
   }
 
   .nav__link:hover {
-    position: relative;
+    color: var(--first-color);
+    /* position: relative; */
   }
 
   .nav__link:hover::after {
-    position: absolute;
+    color: var(--first-color);
+    /* position: absolute;
     content: "";
     width: 100%;
     height: 0.18rem;
     left: 0;
     top: 2rem;
-    background-color: var(--first-color);
+    background-color: var(--first-color); */
   }
 
   .active::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 0.18rem;
-    left: 0;
-    top: 2rem;
-    background-color: var(--first-color);
+    /* position: absolute; */
+    /* content: ""; */
+    /* width: 100%; */
+    /* height: 0.18rem; */
+    /* left: 0; */
+    /* top: 2rem;
+    background-color: var(--first-color); */
   }
 
   .nav{
