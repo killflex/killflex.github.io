@@ -572,7 +572,7 @@ img{
 
 .footer__title{
   color: rgba(255, 255, 255, 0.822);
-  /* font-weight: var(--font-sem); */
+  font-weight: var(--font-semi);
   font-size: 0.9rem;
   margin-bottom: var(--mb-3);
 }
