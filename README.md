@@ -80,29 +80,3 @@ npx http-server
 ```
 
 4. Visit `http://localhost:8000` in your browser
-
-## 🎨 Featured Works
-
-The portfolio showcases various 3D projects created with:
-- **Blender** - 3D modeling and rendering
-- **Cinema 4D** - Motion graphics and animation
-- **ZBrush** - Digital sculpting
-- **Adobe After Effects** - Post-processing and effects
-- **Adobe Photoshop** - Image editing and compositing
-- **Octane/Cycles/Arnold** - Advanced rendering engines
-
-## 📧 Contact
-
-- **Email:** killflexediting@gmail.com
-- **Instagram:** [@killflex](https://www.instagram.com/killflex)
-- **Twitter:** [@fleksipi](https://twitter.com/fleksipi)
-- **GitHub:** [killflex](https://github.com/killflex)
-- **Linktree:** [killflex](https://linktr.ee/killflex)
-
-## 📄 License
-
-Copyright © 2021 killflex. All Rights Reserved.
-
----
-
-<p align="center">Made with ❤️ by killflex</p>
